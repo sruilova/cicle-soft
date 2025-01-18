@@ -1,0 +1,28 @@
+def sumar(a, b):
+    """
+    Retorna la suma de a y b.
+    """
+    return a + b
+
+<<<<<<< HEAD
+def multiplicar(a, b):
+    """
+    Retorna el producto de a por b.
+    """
+    return a * b
+
+def dividir(a, b):
+    """
+    Retorna la división de a entre b.
+    Si b es cero, retorna un mensaje de error.
+    """
+    if b == 0:
+        return "Error: No se puede dividir entre cero."
+    return a / b
+=======
+def restar(a, b):
+    """
+    Retorna la resta de a menos b.
+    """
+    return a - b
+>>>>>>> dfa4a7220282683bedbbb7f92705c25a622ab16a
