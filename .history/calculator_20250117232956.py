@@ -4,12 +4,7 @@ def sumar(a, b):
     """
     return a + b
 
-def restar(a, b):
-    """
-    Retorna la resta de a menos b.
-    """
-    return a - b
-
+<<<<<<< HEAD
 def multiplicar(a, b):
     """
     Retorna el producto de a por b.
@@ -24,3 +19,10 @@ def dividir(a, b):
     if b == 0:
         return "Error: No se puede dividir entre cero."
     return a / b
+=======
+def restar(a, b):
+    """
+    Retorna la resta de a menos b.
+    """
+    return a - b
+>>>>>>> dfa4a7220282683bedbbb7f92705c25a622ab16a
